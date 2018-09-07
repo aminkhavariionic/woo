@@ -6,8 +6,8 @@ export interface AppConfig {
 	appName: string;
 	apiBase: string;
 	perPage: string;
-	consumerKey: ck_5ce86be0e8a9119073f85f00a7dc65abf1ba4390;
-	consumerSecret: cs_dbba4eeffdffffd5e78e34e8e7cf465683b37665;
+	consumerKey: string;
+	consumerSecret: string;
 	adminUsername: string;
 	adminPassword: string;
 	paypalSandbox: string;
@@ -17,11 +17,11 @@ export interface AppConfig {
 }
 
 export const BaseAppConfig: AppConfig = {
-	appName: "MOBIMALL",
+	appName: "AndroidSrc",
 	apiBase: "https://androidsrc.ir/wp-json/",
 	perPage: "5",
-	consumerKey: "",
-	consumerSecret: "",
+	consumerKey: "ck_5ce86be0e8a9119073f85f00a7dc65abf1ba4390",
+	consumerSecret: "cs_dbba4eeffdffffd5e78e34e8e7cf465683b37665",
 	adminUsername: "",
 	adminPassword: "",
 	paypalSandbox: "",
